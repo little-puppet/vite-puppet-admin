@@ -1,0 +1,51 @@
+{
+  "name": "puppet-admin",
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "cross-env NODE_ENV=development vite",
+    "api": "cross-env NODE_ENV=dev_api vite",
+    "build": "cross-env NODE_ENV=production vue-tsc --noEmit && vite build",
+    "serve": "cross-env NODE_ENV=production vite preview"
+  },
+  "dependencies": {
+    "axios": "^0.21.1",
+    "axios-mapper": "^0.5.6",
+    "element-plus": "^1.0.2-beta.55",
+    "js-cookie": "^2.2.1",
+    "mockjs": "^1.1.0",
+    "normalize.css": "^8.0.1",
+    "nprogress": "^0.2.0",
+    "path-to-regexp": "^6.2.0",
+    "qs": "^6.10.1",
+    "screenfull": "^5.1.0",
+    "vue": "^3.0.5",
+    "vue-i18n": "^9.1.7",
+    "vue-router": "^4.0.10",
+    "vuex": "^4.0.2",
+    "vuex-module-decorators": "^1.0.1",
+    "vuex-persistedstate": "^4.0.0-beta.3"
+  },
+  "devDependencies": {
+    "@types/js-cookie": "^2.2.7",
+    "@types/node": "^16.3.3",
+    "@types/nprogress": "^0.2.0",
+    "@typescript-eslint/eslint-plugin": "^4.27.0",
+    "@typescript-eslint/parser": "^4.27.0",
+    "@vitejs/plugin-vue": "^1.2.5",
+    "@vue/compiler-sfc": "^3.1.5",
+    "cross-env": "^7.0.3",
+    "dotenv": "^10.0.0",
+    "eslint": "^7.28.0",
+    "eslint-config-alloy": "^4.1.0",
+    "eslint-plugin-react": "^7.24.0",
+    "eslint-plugin-vue": "^7.11.1",
+    "sass": "^1.35.2",
+    "tslib": "^2.3.0",
+    "typescript": "^4.3.2",
+    "vite": "^2.4.2",
+    "vite-plugin-mock": "^2.9.1",
+    "vite-plugin-svg-icons": "^1.0.1",
+    "vite-plugin-vue-svg": "^0.1.0",
+    "vue-tsc": "^0.0.24"
+  }
+}

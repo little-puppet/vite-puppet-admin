@@ -1,0 +1,36 @@
+/* Variables */
+
+// Base color
+$blue:#324157;
+$light-blue:#3A71A8;
+$red:#C03639;
+$pink: #E65D6E;
+$green: #30B08F;
+$tiffany: #4AB7BD;
+$yellow:#FEC171;
+$panGreen: #30B08F;
+
+// Sidebar
+$bg:var(--bg);
+$topBg:var(--top-bg);
+$menuBg: var(--menu-bg);
+$menuHover: var(--menu-hover);
+$menuText: var(--menu-text);
+$menuActiveText: var(--menu-active-text); // Also see settings.sidebarTextTheme
+$subMenuBg: var(--sub-menu-bg);
+$subMenuText: var(--sub-menu-text);
+$subMenuHover: var(--sub-menu-hover);
+$subMenuActiveText:var(--sub-menu-active-text);
+$sideBarWidth:var(--side-bar-width);
+
+
+$logoHeight: 60px;
+
+
+
+
+// Login page
+$lightGray: #eee;
+$darkGray:#889aa4;
+$loginBg: #2d3a4b;
+$loginCursorColor: #fff;
